@@ -10,7 +10,12 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a Component
 function App() {
-  return <h1>Hi there!</h1>;
+  // let message = "Bye there!"
+  // if (Math.random() > 0.5) {
+  //   message = "Hello there!";
+  // }
+
+  return <h1>{new Date().toLocaleTimeString()}</h1>;
 }
 
 // 5) Show the component on the screen
